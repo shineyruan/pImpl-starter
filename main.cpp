@@ -1,6 +1,6 @@
 #include "HelloWorld.h"
 
-void main() {
+int main() {
    HelloWorld greeter;
    for (int i = 0; i < 3; ++i) {
       greeter.speak();
