@@ -10,6 +10,10 @@ once ssh-ed into CAEN, run:
 ```  
   $ module load gcc/7.1.0
 ```  
+clone the starter files:
+```
+  $ git clone https://github.com/eecs482/pImpl-starter.git
+```
 follow the instructions on the EECS 482 semaphores lab Q3 - Opaque Pointers to complete the starter files, then compile with:
 ```
   $ make
