@@ -9,4 +9,4 @@ HelloWorldImpl.o: HelloWorldImpl.cpp
 	g++ -c HelloWorldImpl.cpp
 
 clean: 
-	rm *.o
+	rm *.o main

@@ -6,14 +6,14 @@
  *   
 */
 class HelloWorld {
-   public:
-   HelloWorld();
+public:
+    HelloWorld();
 
-   ~HelloWorld();
+    ~HelloWorld();
 
-   void speak();
+    void speak();
 
-   class HelloWorldImpl;
-   HelloWorldImpl *pImpl;
+    class HelloWorldImpl;
+    HelloWorldImpl *pImpl;
 };
-#endif // _HELLOWORLD_H
+#endif  // _HELLOWORLD_H
